@@ -25,5 +25,12 @@ namespace Stack_Using_Linked_List
         {
             top = null;
         }
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
     }
 }
